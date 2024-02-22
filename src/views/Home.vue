@@ -1,5 +1,6 @@
 <template>
   <div class="border border-1 rounded-lg p-5">
+    <Chat />
     <!-- Search -->
     <el-input v-model="search" placeholder="Search..." class="mb-5"></el-input>
 
@@ -42,9 +43,6 @@
       >
       <el-button type="primary" @click.prevent="onAction.edit = false">Cancel</el-button>
     </el-form>
-
-    <p class="text-black">{{ search }}</p>
-    <p class="text-black">{{ tasks }}</p>
   </div>
 </template>
 

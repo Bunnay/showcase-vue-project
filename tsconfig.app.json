@@ -1,6 +1,14 @@
 {
   "extends": "@vue/tsconfig/tsconfig.dom.json",
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "vite-env.d.ts",
+    "env.d.ts",
+    "test.ts"
+  ],
   "exclude": ["node_modules"],
   "compilerOptions": {
     "composite": true,
