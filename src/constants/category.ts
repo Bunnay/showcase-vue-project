@@ -1,7 +1,6 @@
 import type { Category, CreateCategory, UpdateCategory } from "category";
 
 export const DEFAULT_CATEGORY_DATA: Category = {
-  id: -1,
   name: "",
   image: "",
 };

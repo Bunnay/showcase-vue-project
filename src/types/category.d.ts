@@ -1,6 +1,6 @@
 declare module "category" {
   export interface Category {
-    id: number;
+    id?: number;
     name: string;
     image: string;
   }

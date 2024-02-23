@@ -7,7 +7,6 @@
     "src/**/*.vue",
     "vite-env.d.ts",
     "env.d.ts",
-    "test.ts"
   ],
   "exclude": ["node_modules"],
   "compilerOptions": {

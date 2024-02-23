@@ -1,7 +1,6 @@
 import type { Product, CreateProduct, UpdateProduct } from "product";
 
 export const DEFAULT_TASK_DATA: Product = {
-  id: -1,
   title: "",
   price: 0,
   description: "",
